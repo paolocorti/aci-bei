@@ -1,10 +1,34 @@
+import { useEffect, useState } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Link from "next/link";
+import { useContent, getContent, getLink } from "../../utils";
+import { isMobile } from "react-device-detect";
+import HeaderMobile from "../../components/HeaderMobile";
+import HomeMenuMobile from "../../components/HomeMenuMobile";
 
-export default function Teachings() {
+export default function Course() {
   const router = useRouter();
-  const { lang } = router.query;
+  const { lang, active } = router.query;
+  const content = useContent();
+  const [course, setCourse] = useState(null);
+  const [activeP, setActiveP] = useState(null);
+  const [menuOpen, setMenuopen] = useState(false);
+  const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    setCourse(lang === "it" ? "aci" : "bei");
+  }, [lang]);
+
+  useEffect(() => {
+    setActiveP(active);
+  }, [active]);
+
+  useEffect(() => {
+    setMobile(isMobile);
+  }, [isMobile]);
+
+  console.log(`${course}_teachings_content_${active}`);
 
   return (
     <div>
@@ -14,47 +38,78 @@ export default function Teachings() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full h-screen">
-        <div className="w-full grid grid-cols-2">
-          <div className="relative pl-16 pt-16">
-            <div className="flex flex-col">
+      <main className="w-full h-full md:h-screen overflow-hidden">
+        {mobile && <HeaderMobile setMenuopen={setMenuopen} />}
+        {mobile && menuOpen && (
+          <HomeMenuMobile
+            course={course}
+            lang={lang}
+            setMenuopen={setMenuopen}
+          />
+        )}
+        <div className="w-full h-full grid grid-cols-1 md:grid-cols-2">
+          <div className="h-screen relative pl-4 md:pl-16 pt-4 md:pt-16">
+            <div className="h-full flex flex-col justify-between">
               <div className="flex flex-col">
-                <div className="relative">
-                  <div className="border-4 border-blue p-4 w-fit text-lg font-bold text-blue my-2 ">
-                    CORSO DI STUDI
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={getLink(content, `${course}_menu_2_1`)}
+                  className="hover:no-underline	"
+                >
+                  <div
+                    className={`${
+                      activeP === "1" ? "border-8" : "border-4"
+                    } border-blue hover:bg-blue hover:text-gray py-2 px-4 w-fit text-xl font-bold text-blue my-2 cursor-pointer`}
+                  >
+                    {getContent(content, `${course}_menu_2_1`)}
                   </div>
-                  <div className="border-4 flex-col flex border-blue border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-64">
-                    <Link href={""}>
-                      <div>organigramma</div>
-                    </Link>
-                    <Link href={""}>
-                      <div>contatti</div>
-                    </Link>
-                    <Link href={""}>
-                      <div>regolamento</div>
-                    </Link>
-                    <Link href={""}>
-                      <div>Scheda SUA e riesame</div>
-                    </Link>
+                </a>
+                <a
+                  target="_blank"
+                  rel="noreferrer"
+                  href={getLink(content, `${course}_menu_2_2`)}
+                  className="hover:no-underline	"
+                >
+                  <div
+                    className={`${
+                      activeP === "2" ? "border-8" : "border-4"
+                    } border-blue hover:bg-blue hover:text-gray py-2 px-4 w-fit text-xl font-bold text-blue my-2 cursor-pointer`}
+                  >
+                    {getContent(content, `${course}_menu_2_2`)}
                   </div>
-                </div>
-                <div className="border-4 border-blue p-4 w-fit text-lg font-bold text-blue my-2 ">
-                  INSEGNAMENTI
-                </div>
-                <div className="border-4 border-blue p-4 w-fit text-lg font-bold text-blue my-2 ">
-                  MInDS
-                </div>
-                <div className="border-4 border-blue p-4 w-fit text-lg font-bold text-blue my-2 ">
-                  ALTRE OPPORTUNITÀ
-                </div>
-                <div className="border-4 border-blue p-4 w-fit text-lg font-bold text-blue my-2 ">
-                  TESI DI LAUREA
-                </div>
+                </a>
+                <Link passHref href={`/${lang}/course?active=3`}>
+                  <div
+                    className={`${
+                      activeP === "3" ? "border-8" : "border-4"
+                    } border-blue hover:bg-blue hover:text-gray py-2 px-4 w-fit text-xl font-bold text-blue my-2 cursor-pointer`}
+                  >
+                    {getContent(content, `${course}_menu_2_3`)}
+                  </div>
+                </Link>
               </div>
-              <p className="text-blue text-xl">Lorem ipsum dolorem sit amet</p>
+              <div className="flex flex-col pb-8">
+                <Link passHref href={`/${lang}/home`}>
+                  <div className="border-4 border-blue hover:bg-blue hover:text-gray py-2 px-4 w-fit text-xl font-bold text-blue hover:bg-blue hover:text-gray my-2 cursor-pointer">
+                    Home
+                  </div>
+                </Link>
+              </div>
             </div>
           </div>
-          <div className="relative "></div>
+          <div className="relative pl-4 md:pl-0 pr-4 md:pr-16 pt-16 overflow-y-scroll">
+            <div className="h-4 w-full bg-blue mb-8"></div>
+            <div
+              className="text-blue my-2 text-2xl "
+              dangerouslySetInnerHTML={{
+                __html: getContent(
+                  content,
+                  `${course}_teachings_content_${active}`
+                ),
+              }}
+            ></div>
+          </div>
         </div>
       </main>
     </div>

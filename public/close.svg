@@ -1,0 +1,12 @@
+<svg
+  enable-background="new 0 0 40.1 40.1"
+  viewBox="0 0 40.1 40.1"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="m11.5 12.1.6-.6 16.4 16.4-.5.6z" stroke-width="3" stroke="#cececf" />
+  <path
+    d="m11.5 28 16.5-16.4.6.6-16.4 16.4z"
+    stroke-width="3"
+    stroke="#cececf"
+  />
+</svg>

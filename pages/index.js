@@ -1,9 +1,17 @@
 import Head from "next/head";
-import Link from "next/link";
-import { useContent } from "./utils";
+import { useEffect, useState } from "react";
+import { useContent } from "../utils";
+import LogoDesktop from "../components/LogoDesktop";
+import { isMobile } from "react-device-detect";
+import LogoMobile from "../components/LogoMobile";
 
 export default function Home() {
   const content = useContent();
+  const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    setMobile(isMobile);
+  }, [isMobile]);
 
   return (
     <div>
@@ -13,14 +21,28 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full">
+      <main className="w-full md:h-screen overflow-hidden">
         <div className="w-full flex flex-col items-center">
-          <div className="text-blue text-2xl pt-8 h-[10vh] flex items-center justify-center">
-            Politecnico di Milano Scuola di Architettura Urbanistica Ingegneria
-            delle Costruzioni
+          <div className="text-blue text-2xl pt-8 h-[10vh] flex md:flex-row flex-col items-center md:items-start justify-center">
+            <a
+              href="https://www.polimi.it/"
+              target="_blank"
+              rel="noreferrer"
+              className="md:mr-2"
+            >
+              Politecnico di Milano
+            </a>{" "}
+            <a
+              href="https://www.auic.polimi.it/it"
+              target="_blank"
+              rel="noreferrer"
+              className="text-center md:text-left"
+            >
+              Scuola di Architettura Urbanistica Ingegneria delle Costruzioni
+            </a>
           </div>
-          <div className="relative p-16 w-full h-[80vh] flex items-center justify-center">
-            <Link href={"/it/home"}>
+          <div className="relative p-8 md:p-16 w-full h-[70vh] md:h-[80vh] flex items-center justify-center">
+            {/* <Link href={"/it/home"}>
               <div className="cursor-pointer font-bold text-9xl hover:bg-blue hover:text-gray w-96 h-96  text-blue border-blue border-16 rounded-full flex justify-center items-center absolute right-[48%]">
                 ACI
               </div>
@@ -30,11 +52,31 @@ export default function Home() {
               <div className="cursor-pointer font-bold text-9xl hover:bg-blue hover:text-gray w-96 h-96  text-blue border-blue border-16 rounded-full flex justify-center items-center absolute left-[48%]">
                 BEI
               </div>
-            </Link>
+            </Link> */}
+            {!mobile && (
+              <LogoDesktop
+                style={{
+                  width: "75%",
+                  maxWidth: "950px",
+                  maxHeight: "70vh",
+                }}
+              />
+            )}
+            {mobile && <LogoMobile />}
           </div>
-          <div className="text-blue text-2xl h-[10vh] flex items-center justify-center">
-            Corso di Laurea Magistrale Architettura Ambiente Costruito Interni
-            // Architecture Built Environment Interiors
+          <div className="text-blue text-2xl h-[10vh] min-h-[70px] md:absolute md:bottom-0 flex flex-col items-center items-center text-center font-bold">
+            Corso di Laurea Magistrale
+            <br />
+            <div>
+              <span className="red" style={{ fontSize: "30px" }}>
+                A
+              </span>
+              rchitettura Ambiente Costruito Interni {"//"}{" "}
+              <span className="red" style={{ fontSize: "30px" }}>
+                A
+              </span>
+              rchitecture Built Environment Interiors
+            </div>
           </div>
         </div>
       </main>

@@ -6,7 +6,7 @@
   },
   {
     "key": "bei_intro",
-    "value": "In keeping with the teachings of the Italian masters who in this school have charted the course for an integral approach to design attentive to the human dimension of architecture at every scale, from that of the home to that of the city and the region, the Course of Studies prepares its students to confront a heterogeneous and inclusive reality, cultivating the ambition to form a figure of architect able to face all the scales and declinations of the architectural project. In the course's development, the theme of the internationalization of teaching experiences takes particular importance. In particular, the MInDS (MilanoIntensive Design Studio) are intensive courses lasting no more than two weeks, held by visiting professors from foreign universities or the world of the profession.",
+    "value": "In keeping with the teachings of the Italian masters who in this school have charted the course for an integral approach to design attentive to the human dimension of architecture at every scale, from that of the home to that of the city and the region, the Course of Studies prepares its students to confront a heterogeneous and inclusive reality, cultivating the ambition to form a figure of architect able to face all the scales and declinations of the architectural project. In the course's development, the theme of the internationalization of teaching experiences takes particular importance. In particular, the MInDS (Milano Intensive Design Studio) are intensive courses lasting no more than two weeks, held by visiting professors from foreign universities or the world of the profession.",
     "link": ""
   },
   {
@@ -37,22 +37,22 @@
   {
     "key": "aci_menu_1_3",
     "value": "Regolamento del corso di studi",
-    "link": "https://www8.ceda.polimi.it/manifesti/manifesti/controller/extra/RegolamentoPublic.do?jaf_currentWFID=main&EVN_DEFAULT=evento&aa=2021&k_corso_la=1195&lang=IT"
+    "link": "https://www8.ceda.polimi.it/manifesti/manifesti/controller/extra/RegolamentoPublic.do?jaf_currentWFID=main&EVN_DEFAULT=evento&aa=2022&k_corso_la=1195&lang=IT"
   },
   {
     "key": "bei_menu_1_3",
     "value": "Educational rules",
-    "link": "https://www8.ceda.polimi.it/manifesti/manifesti/controller/extra/RegolamentoPublic.do?jaf_currentWFID=main&EVN_DEFAULT=evento&aa=2021&k_corso_la=1195&lang=IT"
+    "link": "https://www8.ceda.polimi.it/manifesti/manifesti/controller/extra/RegolamentoPublic.do?jaf_currentWFID=main&EVN_DEFAULT=evento&aa=2022&k_corso_la=1195&lang=IT"
   },
   {
     "key": "aci_menu_1_4",
     "value": "Scheda SUA e riesame",
-    "link": "https://www.universitaly.it/index.php/cercacorsi/universita"
+    "link": "https://www.universitaly.it/index.php/scheda/sua/56793#null"
   },
   {
     "key": "bei_menu_1_4",
     "value": "SUA FORM and Re-examination",
-    "link": "https://www.universitaly.it/index.php/cercacorsi/universita"
+    "link": "https://www.universitaly.it/index.php/scheda/sua/56793#null"
   },
   {
     "key": "aci_menu_1_5",
@@ -70,13 +70,38 @@
     "link": ""
   },
   {
+    "key": "bei_menu_2",
+    "value": "TEACHINGS",
+    "link": ""
+  },
+  {
     "key": "aci_menu_2_1",
     "value": "Manifesto",
-    "link": ""
+    "link": "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?&aa=2022&k_cf=222&k_corso_la=1195&ac_ins=0&k_indir=ACI&lang=IT&tipoCorso=ALL_TIPO_CORSO&caricaOffertaInvisibile=false&semestre=ALL_SEMESTRI&sede=ALL_SEDI"
+  },
+  {
+    "key": "bei_menu_2_1",
+    "value": "Programme Description",
+    "link": "https://www4.ceda.polimi.it/manifesti/manifesti/controller/ManifestoPublic.do?&aa=2022&k_cf=222&k_corso_la=1195&ac_ins=0&k_indir=BEI&lang=IT&tipoCorso=ALL_TIPO_CORSO&caricaOffertaInvisibile=false&semestre=ALL_SEMESTRI&sede=ALL_SEDI"
   },
   {
     "key": "aci_menu_2_2",
     "value": "Elenco docenti",
+    "link": "https://www4.ceda.polimi.it/manifesti/manifesti/controller/MostraFacultyPublic.do?evn_default=EVENTO&aa=2022&k_cf=222&k_corso_la=1195&ac_ins=0&k_indir=%2A%2A%2A&lang=IT&tipoFac=A&tipoCorso=ALL_TIPO_CORSO&caricaOffertaInvisibile=false&semestre=ALL_SEMESTRI&sede=ALL_SEDI&jaf_currentWFID=main"
+  },
+  {
+    "key": "bei_menu_2_2",
+    "value": "Teachers",
+    "link": "https://www4.ceda.polimi.it/manifesti/manifesti/controller/MostraFacultyPublic.do?evn_default=EVENTO&aa=2022&k_cf=222&k_corso_la=1195&ac_ins=0&k_indir=%2A%2A%2A&lang=IT&tipoFac=A&tipoCorso=ALL_TIPO_CORSO&caricaOffertaInvisibile=false&semestre=ALL_SEMESTRI&sede=ALL_SEDI&jaf_currentWFID=main"
+  },
+  {
+    "key": "aci_menu_2_3",
+    "value": "Laboratori",
+    "link": ""
+  },
+  {
+    "key": "bei_menu_2_3",
+    "value": "Laboratories",
     "link": ""
   },
   {
@@ -85,8 +110,18 @@
     "link": ""
   },
   {
+    "key": "bei_menu_3",
+    "value": "MInDS",
+    "link": ""
+  },
+  {
     "key": "aci_menu_3_1",
-    "value": "Il corso",
+    "value": "MInDS | Milano Intensive Design Studio",
+    "link": ""
+  },
+  {
+    "key": "bei_menu_3_1",
+    "value": "MInDS | Milano Intensive Design Studio",
     "link": ""
   },
   {
@@ -95,8 +130,18 @@
     "link": ""
   },
   {
+    "key": "bei_menu_3_2",
+    "value": "Academic year",
+    "link": ""
+  },
+  {
     "key": "aci_menu_3_3",
     "value": "Programma",
+    "link": ""
+  },
+  {
+    "key": "bei_menu_3_3",
+    "value": "Programme",
     "link": ""
   },
   {
@@ -107,22 +152,42 @@
   {
     "key": "aci_menu_4_1",
     "value": "Doppie lauree",
-    "link": ""
+    "link": "https://www.auic.polimi.it/it/international-area/mobilita-internazionale-programma-exchange/doppie-lauree"
+  },
+  {
+    "key": "bei_menu_4_1",
+    "value": "Double Degrees",
+    "link": "https://www.auic.polimi.it/it/international-area/mobilita-internazionale-programma-exchange/doppie-lauree"
   },
   {
     "key": "aci_menu_4_2",
     "value": "MIAW",
-    "link": ""
+    "link": "https://www.miaw.polimi.it/"
+  },
+  {
+    "key": "bei_menu_4_2",
+    "value": "MIAW",
+    "link": "https://www.miaw.polimi.it/"
   },
   {
     "key": "aci_menu_4_3",
     "value": "Tirocini",
-    "link": ""
+    "link": "https://www.auic.polimi.it/it/studenti/carriera-studenti/tirocini"
+  },
+  {
+    "key": "bei_menu_4_3",
+    "value": "Internships",
+    "link": "https://www.auic.polimi.it/it/studenti/carriera-studenti/tirocini"
   },
   {
     "key": "aci_menu_4_4",
     "value": "Erasmus",
-    "link": ""
+    "link": "https://www.auic.polimi.it/it/international-area/mobilita-internazionale-programma-exchange"
+  },
+  {
+    "key": "bei_menu_4_4",
+    "value": "Erasmus",
+    "link": "https://www.auic.polimi.it/en/international-area/international-mobility-programme-exchange"
   },
   {
     "key": "aci_menu_5",
@@ -131,7 +196,17 @@
   },
   {
     "key": "aci_menu_5_1",
-    "value": "La tesi",
+    "value": "Tesi di laurea",
+    "link": ""
+  },
+  {
+    "key": "bei_menu_5_1",
+    "value": "Master degrees",
+    "link": ""
+  },
+  {
+    "key": "bei_menu_4_4",
+    "value": "Erasmus",
     "link": ""
   },
   {
@@ -151,12 +226,92 @@
   },
   {
     "key": "bei_menu_4",
-    "value": "ADDITIONAL OPPORTUNITIES",
+    "value": "OTHER OPPORTUNITIES",
     "link": ""
   },
   {
     "key": "bei_menu_5",
     "value": "MASTER DEGREES",
     "link": ""
+  },
+  {
+    "key": "aci_course_content_1",
+    "value": "<b>Coordinatore:</b> Pierluigi Salvadeo<br/><b>Vice Coordinatore:</b> Andrea Tartaglia<br/><br/><b>Accessi / Ammissioni / Trasferimenti studenti italiani (LM4):</b><br/><b>Referente:</b> Alessandra Oppio<br/><b>Componenti Commissione:</b> Francesca Albani - Michela Bassanelli - Roberto Bolici - Maddalena Buffoli - Davide Del Curto - Valentina Dessi - Andrea Gritti - Monica Lavagna - Marco Lucchini - Carol Monticelli - Ilaria Oberti - Lola Ottolini - Andrea Rolando <br/><br/><b>Accessi / Ammissioni studenti internazionali (LM4):</b><br/><b>Referente:</b> Alessandra Oppio<br/><b>Componenti Commissione:</b> Luca Maria Fabris - Giancarlo Floridi - Fabrizio Leoni - Jacopo Leveratto - Ilaria Mariotti - Luca Skansi <br/><br/><b>Internazionalizzazione</b><br/><b>Referente:</b> Marco Lucchini<br/><b>Componente commissione:</b> Cassandra Cozza<br/><br/><b>MInDS (Milano Intensive Design Studio):</b><br/><b>Referente:</b> Jacopo Leveratto<br/><b>Componenti Commissione:</b> Matteo Poli<br/><br/><b>Mostre didattiche</b><br/><b>Referente:</b> Marco Lucchini <br/><br/><b>Sito ACI BEI</b><br/><b>Referente:</b> Michela Bassanelli<br/><br/><b>Riesame (AVA-MIUR)</b><br/><b>Referente:</b> Roberto Bolici<br/><b>Componenti Commissione:</b> Francesca Albani - Marco Bovati - Marco Lucchini - Giovanni Muciaccia - Lola Ottolini - Stefania Sabatinelli – Paola Savoldi - Andrea Tartaglia<br/><b>Referente assicurazione di qualità (AVA-MIUR)</b>: Roberto Bolici<br/><br/><b>Referente per la composizione delle Commissioni di Laurea e per le procedure:</b><br/> Il coordinatore<br/><br/><b>Responsabile SAT:</b><br/>Marco Borsotti<br/><br/><b>Rappresentanti degli studenti (Architettura - Ambiente Costruito - Interni (1195) - Classe di Laurea LM-4 - Architettura e ingegneria edile-architettura - rappresentantistudenti-aci@polimi.it</b><br/>Sara Micoli Baldelli<br/>Davide Di Ceglie<br/>Letizia Maestri<br/>Dalia Melotti<br/>Chiara Rimoldi<br/><br/>",
+    "link": ""
+  },
+  {
+    "key": "bei_course_content_1",
+    "value": "<b>Coordinator:</b> Pierluigi Salvadeo<br/><b>Vice Coordinator:</b> Andrea Tartaglia<br/><br/><b>Commission Access – Admission and transfer italian students (LM4):</b><br/><b>Coordinator</b>: Alessandra Oppio<br/><b>Committee Member:</b> Francesca Albani - Michela Bassanelli - Roberto Bolici - Maddalena Buffoli - Davide Del Curto - Valentina Dessi - Andrea Gritti - Monica Lavagna - Marco Lucchini - Carol Monticelli - Ilaria Oberti - Lola Ottolini - Andrea Rolando <br/><br/><b>Commission Access – Admission international students (LM4):</b><br/><b>Coordinator:</b> Alessandra Oppio<br/><b>Committee Member:</b> Luca Maria Fabris - Giancarlo Floridi - Fabrizio Leoni - Jacopo Leveratto - Ilaria Mariotti - Luca Skansi <br/><br/><b>Commission Internationalization</b><br/><b>Coordinator:</b> Marco Lucchini<br/><b>Committee Member:</b> Cassandra Cozza<br/><br/><b>MInDS (Milano Intensive Design Studio):</b><br/><b>Coordinator:</b> Jacopo Leveratto<br/><b>Committee Member:</b> Matteo Poli<br/><br/><b>Educational Exhibition</b><br/><b>Coordinator:</b> Marco Lucchini <br/><br/><b>Website ACI BEI</b><br/><b>Coordinator:</b> Michela Bassanelli<br/><br/><b>Review (AVA-MIUR)</b><br/><b>Coordinator:</b> Roberto Bolici<br/><b>Committee Member:</b> Francesca Albani - Marco Bovati - Marco Lucchini - Giovanni Muciaccia - Lola Ottolini - Stefania Sabatinelli – Paola Savoldi - Andrea Tartaglia<br/><b>Coordinator assicurazione di qualità (AVA-MIUR):</b> Roberto Bolici<br/><br/><b>Coordinator for the composition of Degree Commissions and procedures:</b><br/> Il coordinatore<br/><br/><b>SAT Responsible:</b><br/>Marco Borsotti<br/><br/><b>Students Committee Members (Architettura - Ambiente Costruito - Interni (1195) - Classe di Laurea LM-4 - Architettura e ingegneria edile-architettura - rappresentantistudenti-aci@polimi.it</b><br/>Sara Micoli Baldelli<br/>Davide Di Ceglie<br/>Letizia Maestri<br/>Dalia Melotti<br/>Chiara Rimoldi<br/><br/>",
+    "link": ""
+  },
+  {
+    "key": "aci_course_content_2",
+    "value": "<h3>Coordinatore</h3>Pierluigi Salvadeo<br><a href='mailto:pierluigi.salvadeo@polimi.it'>pierluigi.salvadeo@polimi.it</a><br/><br/><h3>Vice Coordinatore</h3>Andrea Tartaglia<br><a href='mailto:andrea.tartaglia@polimi.it'>andrea.tartaglia@polimi.it</a><br/><br/><h3>Rappresentanti Studenti</h3><a href='mailto:andrea.tartaglia@polimi.it'>rappresentantistudenti-aci@polimi.it</a>",
+    "link": ""
+  },
+  {
+    "key": "bei_course_content_2",
+    "value": "<h3>Coordinator</h3>Pierluigi Salvadeo<br><a href='mailto:pierluigi.salvadeo@polimi.it'>pierluigi.salvadeo@polimi.it</a><br/><br/><h3>Vice Coordinator</h3>Andrea Tartaglia<br><a href='mailto:andrea.tartaglia@polimi.it'>andrea.tartaglia@polimi.it</a><br/><br/><h3>Students Representatives</h3><a href='mailto:andrea.tartaglia@polimi.it'>rappresentantistudenti-aci@polimi.it</a>",
+    "link": ""
+  },
+  {
+    "key": "aci_minds_content_1",
+    "value": "I MInDS sono laboratori intensivi di progettazione, pensati come una piattaforma internazionale di scambio e formazione, offerti tra il terzo e il quarto semestre del percorso di Laurea Magistrale. Il loro obiettivo è quello di concludere l’offerta formativa attraverso un’occasione di confronto di alto profilo fra didattica, ricerca e professione.<br/><br/>L’ambito di studio e di lavoro è sempre quello del progetto di architettura, ma è un progetto che non si riconosce più in un’unica scala, o in un catalogo tipologico predeterminato. Piuttosto, riguarda un saper fare architettura che prova ad aprirsi alle contaminazioni di altre culture e pratiche, per rispondere meglio alle sollecitazioni di una realtà sempre più eterogenea e in costante mutamento. Per questo, i MInDS sono affidati a professionisti e ricercatori di calibro internazionale, selezionati per la loro capacità di guardare al progetto attraverso ottiche diverse fra loro e con una convergenza disciplinare tra aree differenti: dalla conservazione al paesaggio, dall’urbanistica all’architettura degli interni, dalla tecnologia all’allestimento.<br/><br/>Nelle due settimane di durata dei MInDS sono dieci i docenti invitati a costituire questo forum temporaneo di discussione e sperimentazione sul progetto. Il tutto suddiviso in dieci classi impegnate in un ciclo costante e continuo di attività laboratoriali, quasi ad offrire agli studenti un primo assaggio di quello che potrebbe essere il loro prossimo futuro professionale.",
+    "link": ""
+  },
+  {
+    "key": "bei_minds_content_1",
+    "value": "MInDS are intensive design workshop, conceived as international exchange and training platform, offered between the third and fourth semester of the Master's degree program. Their purpose is to allow to students of concluding their training through an opportunity for a high-profile comparison between teaching, research and the profession.<br/><br/>The scope is always represented by architectural design as object of study and experimentation, but it is a project that can no longer be recognized in a single scale, or in a predetermined typological catalog. Rather, it concerns an architectural know-how that tries to be open to the contaminations from other cultures and practices, to better respond to the demands of an increasingly heterogeneous and constantly changing reality. For this reason, the MInDS are entrusted to international professionals and researchers, selected for their ability to look the project through different perspectives, each time, through a disciplinary convergence between different areas, from preservation to landscape, from urban planning to architecture of interiors, from technology to set design.<br/><br/>In the two weeks of the MInDS, ten teachers are invited to set up this temporary forum for discussion and experimentation on design. All of this, in ten classes committed in a constant and continuous cycle of workshop activities, as to offer students a first glimpse of what their near future of profession could be.",
+    "link": ""
+  },
+  {
+    "key": "aci_minds_content_2",
+    "value": "<h3>2023</h3> <br/> <li><a href='http://www.jeremytill.net/' target='_blank'>Jeremy Till</a></li> <li><a  href='https://peristoral.com/' target='_blank'>Marta Peris &amp; José Toral</a></li> <li><a href='https://www.aadfi.it/accademico/gallego-roca-francisco-javier/' target='_blank'  >Javier Gallego Roca</a></li> <li><a href='https://www.meetcenter.it/it/guru/luigi-ferrara/' target='_blank'>Luigi Ferrara</a></li> <li><a  href='https://www.constructlab.net/team/mascha-fehse/'  target='_blank'  >Mascha Fehse</a></li> <li><a href='http://so-il.org/' target='_blank'>Kevin Lamyuktseung</a></li> <li><a href='https://fernandacanales.com/' target='_blank'>Fernanda Canales</a></li> <li><a href='http://www.apg.uct.ac.za/apg/philippa-tumubweinee' target='_blank'  >Philippa Nyakato</a></li> <li><a href='https://www.norlander.se/' target='_blank'>Johannes Norlander</a></li> <li><a href='http://www.pointsupreme.com/' target='_blank'>Konstantinos Pantazis</a></li><br/><br/><h3>2022</h3><br/><li><a href='http://www.aslicicek.eu/' target='_blank'>Aslı Çiçek</a></li><li><a  href='https://graz.pure.elsevier.com/en/persons/aglaee-degros' target='_blank'>Aglaée Degros</a> & <a href='https://www.artgineering.eu/about/stefan-bendiks/' target='_blank'  >Stefan Bendiks</a><li><a href='https://gravalosdimonte.wordpress.com/' target='_blank'  >Patrizia Di Monte & Ignacio Grávalos</a></li><li><a href='https://www.ocean-a-e.com/' target='_blank'>Michael Hensel</a></li><li><a  href='https://www.tudelft.nl/bk/over-faculteit/hoogleraren/profir-eaj-luiten'  target='_blank'  >Eric Luiten</a></li><li><a href='https://falaatelier.com/' target='_blank'>Filipe Magalhães</a></li><li><a href='http://www.feld72.at' target='_blank'>Michael Obrist</a></li><li><a href='https://isearch.asu.edu/profile/2267120' target='_blank'  >Elena Rocchi</a></li><li><a href='https://francescatorzo.it/' target='_blank'>Francesca Torzo</a></li><br/><br/><h3>2021</h3><br/><li><a href='https://www.swarch.co.uk/' target='_blank'>Sarah Wigglesworth</a></li><li><a href='http://www.zeinstravangelderen.nl/index.html' target='_blank'  >Mikel van Gelderen</a></li><li><a href='https://www.auboeck-karasz.at/info' target='_blank'  >Maria Auböck & János Kárász</a></li><li><a href='https://www.ganchegui.com' target='_blank'>Mario Sangalli</a></li><li><a href='https://studio-tuin-en-wereld.tumblr.com/team' target='_blank'  >Tomas Ooms</a></li><li><a href='https://jl-office.com/' target='_blank'>Lluís Ortega</a></li><li><a href='https://ofis.si/' target='_blank'>Spela Videcnik & Rok Oman</a></li><li><a href='http://www.spridd.se/' target='_blank'>Ola Broms Wessel & Klas Ruin</a></li><br/>",
+    "link": ""
+  },
+  {
+    "key": "bei_minds_content_2",
+    "value": "<h3>2023</h3> <br/> <li><a href='http://www.jeremytill.net/' target='_blank'>Jeremy Till</a></li> <li><a  href='https://peristoral.com/' target='_blank'>Marta Peris &amp; José Toral</a></li> <li><a href='https://www.aadfi.it/accademico/gallego-roca-francisco-javier/' target='_blank'  >Javier Gallego Roca</a></li> <li><a href='https://www.meetcenter.it/it/guru/luigi-ferrara/' target='_blank'>Luigi Ferrara</a></li> <li><a  href='https://www.constructlab.net/team/mascha-fehse/'  target='_blank'  >Mascha Fehse</a></li> <li><a href='http://so-il.org/' target='_blank'>Kevin Lamyuktseung</a></li> <li><a href='https://fernandacanales.com/' target='_blank'>Fernanda Canales</a></li> <li><a href='http://www.apg.uct.ac.za/apg/philippa-tumubweinee' target='_blank'  >Philippa Nyakato</a></li> <li><a href='https://www.norlander.se/' target='_blank'>Johannes Norlander</a></li> <li><a href='http://www.pointsupreme.com/' target='_blank'>Konstantinos Pantazis</a></li><br/><br/><h3>2022</h3><br/><li><a href='http://www.aslicicek.eu/' target='_blank'>Aslı Çiçek</a></li><li><a  href='https://graz.pure.elsevier.com/en/persons/aglaee-degros' target='_blank'>Aglaée Degros</a> & <a href='https://www.artgineering.eu/about/stefan-bendiks/' target='_blank'  >Stefan Bendiks</a><li><a href='https://gravalosdimonte.wordpress.com/' target='_blank'  >Patrizia Di Monte & Ignacio Grávalos</a></li><li><a href='https://www.ocean-a-e.com/' target='_blank'>Michael Hensel</a></li><li><a  href='https://www.tudelft.nl/bk/over-faculteit/hoogleraren/profir-eaj-luiten'  target='_blank'  >Eric Luiten</a></li><li><a href='https://falaatelier.com/' target='_blank'>Filipe Magalhães</a></li><li><a href='http://www.feld72.at' target='_blank'>Michael Obrist</a></li><li><a href='https://isearch.asu.edu/profile/2267120' target='_blank'  >Elena Rocchi</a></li><li><a href='https://francescatorzo.it/' target='_blank'>Francesca Torzo</a></li><br/><br/><h3>2021</h3><br/><li><a href='https://www.swarch.co.uk/' target='_blank'>Sarah Wigglesworth</a></li><li><a href='http://www.zeinstravangelderen.nl/index.html' target='_blank'  >Mikel van Gelderen</a></li><li><a href='https://www.auboeck-karasz.at/info' target='_blank'  >Maria Auböck & János Kárász</a></li><li><a href='https://www.ganchegui.com' target='_blank'>Mario Sangalli</a></li><li><a href='https://studio-tuin-en-wereld.tumblr.com/team' target='_blank'  >Tomas Ooms</a></li><li><a href='https://jl-office.com/' target='_blank'>Lluís Ortega</a></li><li><a href='https://ofis.si/' target='_blank'>Spela Videcnik & Rok Oman</a></li><li><a href='http://www.spridd.se/' target='_blank'>Ola Broms Wessel & Klas Ruin</a></li><br/>",
+    "link": ""
+  },
+  {
+    "key": "aci_minds_content_3",
+    "value": "<br/><a class='year' href='https://issuu.com/polimi_bassanelli/docs/booklet_minds_2022' target='_blank' download><span class='big-number'>20</span><span class='red big-number'>22</span></a><br/><br/><br/><a class='year' href='https://issuu.com/polimi_bassanelli/docs/220331_cd_tot' target='_blank'><span class='big-number'>20</span><span class='red big-number'>21</span></a><br/><br/>",
+    "link": ""
+  },
+  {
+    "key": "bei_minds_content_3",
+    "value": "<br/><a class='year' href='https://issuu.com/polimi_bassanelli/docs/booklet_minds_2022' target='_blank' download><span class='big-number'>20</span><span class='red big-number'>22</span></a><br/><br/><br/><a class='year' href='https://issuu.com/polimi_bassanelli/docs/220331_cd_tot' target='_blank'><span class='big-number'>20</span><span class='red big-number'>21</span></a><br/><br/>",
+    "link": ""
+  },
+  {
+    "key": "aci_thesis_content_1",
+    "link": "",
+    "value": "<p>Gli studenti che desiderano dare avvio alla loro Tesi di Laurea dovranno consultare la <a href='https://www.auic.polimi.it/it/didattica/proposte-di-tesi-corso-di-studio-in-architettura-ambiente-costruito-interni-architecture-built-environment-interiors-1' target='_blank'><span class='red'>bacheca delle proposte di tesi</span></a> del Corso di Studi nella quale troveranno la lista dei docenti disponibili a ricoprire il ruolo di relatore, i loro programmi e le istruzioni per le candidature.</p><br/><br/>"
+  },
+  {
+    "key": "bei_thesis_content_1",
+    "link": "",
+    "value": "<p>Students who wish to begin their Master Thesis should visit the <a href='https://www.auic.polimi.it/en/teaching/thesis-bulletin-board-study-programme-in-architettura-ambiente-costruito-interni-architecture-built-environment-interiors/thesis-bulletin-board-study-programme-in-architecture-built-environment-interiors-architettura-ambiente-costruito-interni' target='_blank'><span class='red'>list of proposals of their course</span></a>, in which they will find the list of teachers available as advisor, their schedules, and instructions for applications.</p><br/><br/>"
+  },
+  {
+    "key": "aci_teachings_content_3",
+    "link": "",
+    "value": "<h3>PRIMO ANNO</h3> <br /> <h3>Laboratorio di Progettazione Architettonica</h3> <br /> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=288863&polij_device_category=DESKTOP&__pj0=0&__pj1= 6b1fe923bdea08a9287dc1b207b3be99 ' >Filippo Orsini</a > | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=EVENTO&&aa=2022&k_cf=-1&k_corso_la=-1&ac_ins=0&lang=IT&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&tipoInsegnamento=ALL_TIPO_INSEGNAMENTO&sede=ALL_SEDI&n_docente=Maria%20Chiara%20Pastore&k_doc=123521&tab_ricerca=1' >Maria Chiara Pastore</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=3682&polij_device_category=DESKTOP&__pj0=0&__pj1=7 4ca255a7bca01149d3af3d37e1874ce ' >Roberto Ravegnani Morosini</a > | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=266033' >Andrea Rebecchi</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=58443&lang=IT&polij_device_category=DESKTOP&__pj0= 0&__pj1=2480ffae1043a1b20392aa81aeabe15d ' >Andrea Di Franco </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=43785&polij_device_category=DESKTOP&__pj0=0&__pj1= bbd6fda6cc50097c6f7897f19a1059b5' >Francesca Cognetti De Martiis</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_prodotti=EVENTO&k_doc=94165&aa=2013&lang=IT ' >Angelo Lunati </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=75459&polij_device_category=DESKTOP&__pj0=0&__pj1=c 8607b855473fd41ef45934b972010e1' >Christian Gasparini</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=93801&polij_device_category=DESKTOP&__pj0=0&__pj1= 564cb54e5cf43ff6fae2c859f2bfbc31 ' >Marco Lucchini </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=68654&polij_device_category=DESKTOP&__pj0=0&__pj1= 14a9f7d2262e038063453799824a06c7' >Immacolata Concezione Forino</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=246904&polij_device_category=DESKTOP&__pj0=0&__pj1= 04f8721608fa727360e707da6852c6c0 ' >Sonia Beatrice Calzoni </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=177197&polij_device_category=DESKTOP&__pj0=0&__pj1 =ae6c336bc6b97b593c500a2497ebbd65 ' >Valentina Puglisi</a > </li> <br /><br /> <h3>Laboratorio di Restauro</h3> <br /> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=160601&polij_device_category=DESKTOP&__pj0=0&__pj1 =05c10f3bb06c3395ab178caa86aa55cb ' >Cristina Tedeschi </a> | <a target='_blank' href='http://www.progettazionedellarchitettura.polimi.it/docenti/luce-fabio/' >Fabio Luce</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=83618&polij_device_category=DESKTOP&__pj0=0&__pj1=d 6c80d105391bd49626d828bce910547 ' >Gabriella Guarisco</a > | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=118320&polij_device_category=DESKTOP&__pj0=0&__pj1 =dc38bc4988adfbd92e57bf20dd2a1f32 ' >Daniela Oreni</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=22979&polij_device_category=DESKTOP&__pj0=0&__pj1=c4 241341dc96d6a64b885b635e5983a4 ' >Susanna Bortolotto </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=84766&polij_device_category=DESKTOP&__pj0=0&__pj1= c155792d70985247272bc7eba68246cd' >Franco Guzzetti</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=1358&polij_device_category=DESKTOP&__pj0=0&__pj1=c41 65cb15e4095d732791e70f3464cb0 ' >Lionella Scazzosi</a > | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=5484 ' >Cristiana Achille</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=9456&polij_device_category=DESKTOP&__pj0=0&__pj1=9b 8b661578a074fdb8401b30190d6ef2 ' >Luigi Barazzetti </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=388647&polij_device_category=DESKTOP&__pj0=0&__pj1= 74984696c0a089f31692bd174b5811e4 ' >Maria Annunziata Oteri</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=55069&polij_device_category=DESKTOP&__pj0=0&__pj1= 0e78e9e27ea043c1fff6405a8e0fee76 ' >Davide Del Curto </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=183756&polij_device_category=DESKTOP&__pj0=0&__pj1=24d4 a645df101ed2c9073de0696626aa' >Carlo Iapige De Gaetani</a > </li> <br /> <h3><br />Laboratorio di Architettura degli Interni</h3> <br /> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_prodotti=EVENTO&k_doc=259648&aa=2020&lang=EN ' >Matteo Ghidoni </a> | <a target='_blank' href='https://www.researchgate.net/profile/Anna-Dalla-Valle-2 ' >Anna Della Valle</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=1208&polij_device_category=DESKTOP&__pj0=0&__pj1=5 015f7cff58988784a273a14e756a306 ' >Gian Luca Basso Peressut</a > | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=EVENTO&&aa=2022&k_cf=-1&k_corso_la=-1&ac_ins=0&lang=IT&tipoCorso=ALL_TIPO_CORSO&semestre=ALL_SEMESTRI&tipoInsegnamento =ALL_TIPO_INSEGNAMENTO&sede=ALL_SEDI&k_doc=31797&tab_ricerca=1' >Elena Cao</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=147527&polij_device_category=DESKTOP&__pj0=0&__pj1 =3a25a6afe6e4b85abb5e8c82cfa16434 ' >Pierluigi Salvadeo</a > | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=131381&polij_device_category=DESKTOP&__pj0=0&__pj1 =f864de32ab67f13f8ee1b0d9ce388354 ' >Matteo Poli</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=168213&polij_device_category=DESKTOP&__pj0=0&__pj1= a46289a8b0554140d48aea73a5127afc ' >Stefania Varvaro </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=71990&polij_device_category=DESKTOP&__pj0=0&__pj1= 2c48a9d698a1f798a061269c2696da6c ' >Rossana Gabaglio</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=5700&polij_device_category=DESKTOP&__pj0=0&__pj1=89f4b94e9f7226d12371dd71e459ed03' >Lola Elisabetta Ottolini </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=262551&polij_device_category=DESKTOP&__pj0=0&__pj1=deeb6db46986f1265b70400fcbef44c8' >Catherine Dezio</a > </li><br /> <h3><br />Laboratorio di progetto e costruzione dell’architettura</h3> <br /> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=79233 ' >Elisabetta Ginelli </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=4806&polij_device_category=DESKTOP&__pj0=0&__pj1=4b 5b5d408f5d5ce0a4764ccbf9f23b9f' >Luca Francesco Formis</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=2696 ' >Paolo Gasparoli </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=253240&polij_device_category=DESKTOP&__pj0=0&__pj1= 17a98041c268995afbc153a62600995a' >Riccardo Aceti</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=19936&polij_device_category=DESKTOP&__pj0=0&__pj1=8 0e363bc4b2a5cc439273d60c18eae4a' >Roberto Bolici </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=32704&polij_device_category=DESKTOP&__pj0=0&__pj1=d 19b3f206bcf69ed692ba18c47de90b3' >Antonio Capsoni</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=74242 ' >Matteo Gambaro </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=194455&polij_device_category=DESKTOP&__pj0=0&__pj1 =e93eae43c4943440b2ce0b96d31f67ae ' >Paolo Martinelli</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=141821&polij_device_category=DESKTOP&__pj0=0&__pj1 =10b45d467bdfea4551af1fe37a373ff3 ' >Alessandro Rogora </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=64302&polij_device_category=DESKTOP&__pj0=0&__pj1=6 8d0341d26b8ded37891dce3045eab19 ' >Roberto Fedele</a > </li> <br /> <br /> <h3>SECONDO ANNO</h3> <br /> <h3>Laboratorio Tematico</h3> <br /> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=179966&polij_device_category=DESKTOP&__pj0=0&__pj1= 014f4640c557301be9112d82a29ba444 ' >Giovanni Comi </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=89261&polij_device_category=DESKTOP&__pj0=0&__pj1=31460 76e645a27d3c180e708f44eadd9 ' >Monica Lavagna</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=49752&polij_device_category=DESKTOP&__pj0=0&__pj1= f242359ef29ec52a801519cf1606819a ' >Cassandra Cozza </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=53355&polij_device_category=DESKTOP&__pj0=0&__pj1=f3 7622412d59f69cbd3ffd5d694ecb76' >Francesca Danesi</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=83000&polij_device_category=DESKTOP&__pj0=0&__pj1= aa7c37f2aade838e50b3711ad310f935 ' >Andrea Gritti </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=133132&polij_device_category=DESKTOP&__pj0=0&__pj1= 6a4f77c7870c9cb41cac8bc297aa5586 ' >Valeria Natalia Pracchi</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=475545&polij_device_category=DESKTOP&__pj0=0&__pj1= 4cc6cfcc49b990f7d2e9c5c6af790a15 ' >Carles Muro Soler </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=3174&polij_device_category=DESKTOP&__pj0=0&__pj1=2 6242a640d789acf9d20f547103c0609 ' >Chiara Merlini</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=150675&polij_device_category=DESKTOP&__pj0=0&__pj1= ca483bf8c8685b5eebf6217acaaa6d93 ' >Enrico Scaramellini </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=195453&polij_device_category=DESKTOP&__pj0=0&__pj1=d9a 4cdd7721570276cf02b3de0956734 ' >Michela Bassanelli</a > </li> <br /><br /> <h3>Corso Integrato Urbanistica</h3> <br /> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=150008&polij_device_category=DESKTOP&__pj0=0&__pj1 =92f1489457d9f940bdc30b6756db9ecd ' >Paola Savoldi</a > | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=321467&polij_device_category=DESKTOP&__pj0=0&__pj1= de2ee65fb06938dc5e5d0075ce0977c1 ' >Stefania Sabatinelli</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=125644&polij_device_category=DESKTOP&__pj0=0&__pj1= 40bde539e502abf3c6773b43aca80e4d ' >Carlo Peraboni </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=267667&polij_device_category=DESKTOP&__pj0=0&__pj1 =b297d0556a92c7c022065c80943fff9f ' >Ilaria Mariotti</a > </li> <li> <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?EVN_PRODOTTI=evento&k_doc=43272&polij_device_category=DESKTOP&__pj0=0&__pj1= 06fd5f1222b648b8462958a0ffad0c03 ' >Maria Antonietta Clerici </a> | <a target='_blank' href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=5365&polij_device_category=DESKTOP&__pj0=0&__pj1=aefc381a0 cc8a3ace5fd268b9f049614' >Agostino Petrillo</a > </li> <br /> <br />'"
+  },
+  {
+    "key": "bei_teachings_content_3",
+    "link": "",
+    "value": "<h3>FIRST YEAR</h3> <br /><h3>Architectural Design Studio</h3><br /><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=5026&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Alessandro Rocca </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=26736&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Gian Luca Brunetti</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=900&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Cino Zucchi </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=900&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Cino Zucchi</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=90392&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Fabrizio Leoni </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=56589&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Andrea De Matteis</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=67828&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Giancarlo Floridi </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=186961&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Andrea Garzulino</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=553070&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Antonio Da Silva Ferreira De Carvalho</a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=1216&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Costanzo Ranci Ortigosa</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=792316&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Pietro Valle </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=62207&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Luca Maria Francesco Fabris</a></li><br/><h3>Architectural Preservation Studio</h3><br /><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=55827&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Stefano Della Torre </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=118320&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Daniela Oreni</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=38579&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Alberta Cazzani </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=26609&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Raffaella Brumana</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=146521&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Antonella Elide Saisi </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=245352&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Andrea Adami</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=31538&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Lorenzo Cantini </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=264861&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Mattia Previtali</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=109867&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Rossella Moioli </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=51228&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Branka Cuca</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=88262&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Angelo Giuseppe Landi </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=506183&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Fausta Fiorillo</a></li><br/><h3>Architecture of Interiors Design Studio</h3><br /><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=7161&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Marta Averna </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=12567&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Leonardo Belladelli</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=6319&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Emanuele Marino Raimondo De Giorgi </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=550731&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Stamatina Kousidi</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=90694&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Jacopo Leveratto </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=576555&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Nerantzia Tzortzi</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=18673&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Lorenzo Bini </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=254397&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Francesca Lucia Maria Albani</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=4395&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Gennaro Postiglione </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=25747&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Paola Giuseppina Briata</a></li><br/><h3>Design and Construction Studio</h3><br /><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=174391&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Alessandra Zanelli </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=872&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Giorgio Novati</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=160146&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Andrea Tartaglia </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=113965&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Giovanni Muciaccia</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=112336&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Marzia Morena </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=6363&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Francesco Mazzola</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=115146&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Massimiliano Nastri </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=148370&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Carlo Alberto Sanjust</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=121527&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Ingrid Maria Paoletti </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=109904&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Elena Francesca Anna Maria Mola</a></li><br/><br/><h3>SECOND YEAR</h3><br /><h3>Thematic Studio</h3><br /><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=280540&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Francesca Zanotto </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=11923&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Alessio Dionigi Battistella</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=54378&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Annalisa De Curtis </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=98238&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Monica Manfredi</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=15666&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Guya Bertelli </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=62354&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Marco Facchinetti</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=855530&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Paolo Carpi </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=160146&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Andrea Tartaglia</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=870679&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Silvia Bodei </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=81063&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Ekaterina Golovatyuk</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=24080&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Marco Bovati </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=131381&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Matteo Umberto Poli</a></li><br/><h3>IC Urban Planning</h3><br /><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=119224&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Carolina Pacchi </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=549811&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Andrea Parma</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=25747&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Paola Giuseppina Briata </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=307598&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'> Camilla Lenzi</a></li><li><a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=321393&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Alessandro Coppola </a> | <a href='https://www4.ceda.polimi.it/manifesti/manifesti/controller/ricerche/RicercaPerDocentiPublic.do?evn_didattica=evento&k_doc=781714&aa=2022&lang=IT&jaf_currentWFID=main' target='_blank'>Carlotta Caciagli</a></li><br/>"
+  },
+  {
+    "key": "minds_gallery_1",
+    "link": "",
+    "value": "1.jpg,2.jpg,3.jpg,4.jpg,5.jpg,6.jpg,7.jpg,8.jpg,9.jpg"
+  },
+  {
+    "key": "minds_gallery_2",
+    "link": "",
+    "value": "1.JPG,2.JPG,3.JPG,4.JPG,5.JPG,6.JPG,7.JPG,8.JPG,9.JPG,10.JPG,11.JPG,12.JPG,13.JPG,14.JPG,15.JPG"
   }
 ]
