@@ -21,9 +21,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="w-full md:h-screen overflow-hidden">
+      <main className="w-full h-full md:h-screen md:overflow-hidden">
         <div className="w-full flex flex-col items-center">
-          <div className="text-blue text-2xl pt-8 h-[10vh] flex md:flex-row flex-col items-center md:items-start justify-center">
+          <div className="text-blue text-xl md:text-2xl pt-8 h-[10vh] flex md:flex-row flex-col items-center md:items-start justify-center">
             <a
               href="https://www.polimi.it/"
               target="_blank"
@@ -62,9 +62,17 @@ export default function Home() {
                 }}
               />
             )}
-            {mobile && <LogoMobile />}
+            {mobile && (
+              <LogoMobile
+                style={{
+                  width: "85%",
+                  maxWidth: "85%",
+                  maxHeight: "70vh",
+                }}
+              />
+            )}
           </div>
-          <div className="text-blue text-2xl h-[10vh] min-h-[70px] md:absolute md:bottom-0 flex flex-col items-center items-center text-center font-bold">
+          <div className="text-blue p-1 text-xl md:text-2xl h-[10vh] min-h-[70px] md:absolute md:bottom-0 flex flex-col items-center items-center text-center font-bold">
             Corso di Laurea Magistrale
             <br />
             <div>

@@ -1,11 +1,10 @@
 import Head from "next/head";
 import { useEffect, useState } from "react";
-import { useContent } from "../utils";
+import { useContent } from "../../utils";
 import { useRouter } from "next/router";
-import LogoDesktop from "../components/LogoDesktop";
 import { isMobile } from "react-device-detect";
-import HeaderMobile from "../components/HeaderMobile";
-import HomeMenuMobile from "../components/HomeMenuMobile";
+import HeaderMobile from "../../components/HeaderMobile";
+import HomeMenuMobile from "../../components/HomeMenuMobile";
 import Link from "next/link";
 
 export default function Home() {

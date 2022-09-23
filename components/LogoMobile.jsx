@@ -1,14 +1,14 @@
 import { useRouter } from "next/router";
 import { useState } from "react";
 
-const LogoMobile = () => {
+const LogoMobile = ({ style }) => {
   const router = useRouter();
   const [isOver, setIsOver] = useState(false);
   const [isOver2, setIsOver2] = useState(false);
 
   return (
-    <svg x="0px" y="0px" viewBox="0 0 400 800" style={{ width: "100%" }}>
-      <g transform="translate(-50,0)">
+    <svg x="0px" y="0px" viewBox="0 0 300 600" style={style}>
+      <g transform="translate(-100,-100)">
         <circle
           className="st10"
           cx="244.9"
@@ -24,7 +24,7 @@ const LogoMobile = () => {
           ry="131.1"
           onClick={() => router.push("/en/home")}
         />
-        <g className="st12">
+        <g className="st12" style={{ pointerEvents: "none" }}>
           <path
             className="st13"
             d="M159.5,330.6l31.3-67.3c0.3-0.6,1-1.1,1.7-1.1h1c0.7,0,1.4,0.5,1.7,1.1l31.3,67.3c0.6,1.3-0.2,2.6-1.7,2.6

@@ -12,7 +12,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
         onMouseEnter={() => setActive("course")}
         onMouseLeave={() => setActive(null)}
       >
-        <div className="border-4 border-blue py-2 px-4 w-fit text-lg font-bold text-blue my-2 cursor-pointer">
+        <div className="border-4 border-blue py-1 px-4 w-fit text-md font-bold text-blue my-2 cursor-pointer">
           {getContent(content, `${course}_menu_1`)}
         </div>
         {active === "course" && (
@@ -65,7 +65,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
         onMouseEnter={() => setActive("teachings")}
         onMouseLeave={() => setActive(null)}
       >
-        <div className="border-4 border-blue  py-2 px-4 w-fit text-lg font-bold text-blue my-2 cursor-pointer">
+        <div className="border-4 border-blue py-1 px-4 w-fit text-md font-bold text-blue my-2 cursor-pointer">
           {getContent(content, `${course}_menu_2`)}
         </div>
         {active === "teachings" && (
@@ -101,7 +101,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
         onMouseEnter={() => setActive("minds")}
         onMouseLeave={() => setActive(null)}
       >
-        <div className="border-4 border-blue  py-2 px-4 w-fit text-lg font-bold text-blue my-2 cursor-pointer">
+        <div className="border-4 border-blue  py-1 px-4 w-fit text-md font-bold text-blue my-2 cursor-pointer">
           {getContent(content, `${course}_menu_3`)}
         </div>
         {active === "minds" && (
@@ -129,7 +129,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
         onMouseEnter={() => setActive("opportunities")}
         onMouseLeave={() => setActive(null)}
       >
-        <div className="border-4 border-blue  py-2 px-4 w-fit text-lg font-bold text-blue my-2 cursor-pointer">
+        <div className="border-4 border-blue  py-1 px-4 w-fit text-md font-bold text-blue my-2 cursor-pointer">
           {getContent(content, `${course}_menu_4`)}
         </div>
         {active === "opportunities" && (
@@ -178,7 +178,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
         onMouseEnter={() => setActive("thesis")}
         onMouseLeave={() => setActive(null)}
       >
-        <div className="border-4 border-blue  py-2 px-4 w-fit text-lg font-bold text-blue my-2 cursor-pointer">
+        <div className="border-4 border-blue  py-1 px-4 w-fit text-md font-bold text-blue my-2 cursor-pointer">
           {getContent(content, `${course}_menu_5`)}
         </div>
         {active === "thesis" && (

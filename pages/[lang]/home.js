@@ -38,7 +38,7 @@ export default function Home() {
                 </div>
               </Link>
               <div className="absolute bottom-0 p-4 text-lg font-bold text-blue">
-                <Link href={`/privacy`}>
+                <Link href={`/${lang}/privacy`}>
                   <div className="cursor-pointer hover:underline">Privacy</div>
                 </Link>
               </div>
@@ -47,13 +47,13 @@ export default function Home() {
           {mobile && (
             <div className="relative w-full flex justify-center items-center p-8">
               <Link href={"/"}>
-                <div className="w-[60vw] h-[60vw] text-[20vw] font-bold cursor-pointer hover:bg-blue hover:text-gray text-blue border-blue border-[20px] rounded-full flex justify-center items-center">
+                <div className="w-[60vw] h-[60vw] text-[20vw] font-bold cursor-pointer hover:bg-blue hover:text-gray text-blue border-blue border-[10px] md:border-[20px] rounded-full flex justify-center items-center">
                   {lang === "it" ? "ACI" : "BEI"}
                 </div>
               </Link>
             </div>
           )}
-          <div className="relative pl-4 md:pl-16 pr-4 md:pr-0 pt-4 md:pt-16 md:w-[60vw] md:h-screen md:overflow-y-scroll">
+          <div className="relative pl-4 md:pl-16 pr-4 md:pr-0 pt-4 md:pt-8 md:w-[60vw] md:h-screen md:overflow-y-scroll">
             <div className="flex flex-col">
               {!mobile && (
                 <HomeMenu
@@ -74,7 +74,10 @@ export default function Home() {
             <div className="">
               <p
                 className="text-blue text-xl md:text-2xl pr-0 md:pr-16 md:pt-16 pb-8 md:pb-16"
-                style={{ lineHeight: 1.2, fontSize: "1.4vw" }}
+                style={{
+                  lineHeight: 1.2,
+                  fontSize: isMobile ? "20px" : "1.5vw",
+                }}
               >
                 {getContent(content, `${course}_intro`)}
               </p>
