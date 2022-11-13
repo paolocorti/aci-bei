@@ -16,7 +16,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
           {getContent(content, `${course}_menu_1`)}
         </div>
         {active === "course" && (
-          <div className="border-4 flex-col z-50 flex border-blue border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
+          <div className="border-4 flex-col z-50 flex border-red border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
             <Link passHref href={`/${lang}/course?active=1`}>
               <div className="cursor-pointer hover:underline">
                 {getContent(content, `${course}_menu_1_1`)}
@@ -69,7 +69,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
           {getContent(content, `${course}_menu_2`)}
         </div>
         {active === "teachings" && (
-          <div className="border-4 flex-col z-40 flex border-blue border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
+          <div className="border-4 flex-col z-40 flex border-red border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
             <a
               target="_blank"
               rel="noreferrer"
@@ -105,7 +105,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
           {getContent(content, `${course}_menu_3`)}
         </div>
         {active === "minds" && (
-          <div className="border-4 flex-col z-30 flex border-blue border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
+          <div className="border-4 flex-col z-30 flex border-red border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
             <Link href={`/${lang}/minds?active=1`}>
               <div className="cursor-pointer hover:underline">
                 {getContent(content, `${course}_menu_3_1`)}
@@ -133,7 +133,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
           {getContent(content, `${course}_menu_4`)}
         </div>
         {active === "opportunities" && (
-          <div className="border-4 flex-col z-20 flex border-blue border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
+          <div className="border-4 flex-col z-20 flex border-red border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
             <a
               target="_blank"
               rel="noreferrer"
@@ -182,7 +182,7 @@ const HomeMenu = ({ active, setActive, course, lang }) => {
           {getContent(content, `${course}_menu_5`)}
         </div>
         {active === "thesis" && (
-          <div className="border-4 flex-col z-10 flex border-blue border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
+          <div className="border-4 flex-col z-10 flex border-red border-dashed top-0 p-4 w-fit text-lg font-bold text-blue my-2 absolute left-[280px] max-w-[280px]">
             <Link href={`/${lang}/thesis?active=1`}>
               <div className="cursor-pointer hover:underline">
                 {getContent(content, `${course}_menu_5_1`)}

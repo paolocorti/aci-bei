@@ -23,25 +23,32 @@ export default function Home() {
 
       <main className="w-full h-full md:h-screen md:overflow-hidden">
         <div className="w-full flex flex-col items-center">
-          <div className="text-blue text-xl md:text-2xl pt-8 h-[10vh] flex md:flex-row flex-col items-center md:items-start justify-center">
+          <div className="text-blue text-xl md:text-2xl flex flex-col items-center md:items-center justify-start border-b-2 border-red w-full">
             <a
               href="https://www.polimi.it/"
               target="_blank"
               rel="noreferrer"
               className="md:mr-2"
             >
-              Politecnico di Milano
+              <div>
+                <img
+                  src={"logo.jpg"}
+                  style={{ width: "200px", mixBlendMode: "multiply" }}
+                  alt="Logo Politecnico Milano"
+                  className="mb-4"
+                />
+              </div>
             </a>{" "}
             <a
               href="https://www.auic.polimi.it/it"
               target="_blank"
               rel="noreferrer"
-              className="text-center md:text-left"
+              className="text-center md:text-left pb-2"
             >
               Scuola di Architettura Urbanistica Ingegneria delle Costruzioni
             </a>
           </div>
-          <div className="relative p-8 md:p-16 w-full h-[70vh] md:h-[80vh] flex items-center justify-center">
+          <div className="relative p-8 pt-0 md:pt-0 md:p-16 w-full h-[70vh] md:h-[80vh] flex items-center justify-center">
             {/* <Link href={"/it/home"}>
               <div className="cursor-pointer font-bold text-9xl hover:bg-blue hover:text-gray w-96 h-96  text-blue border-blue border-16 rounded-full flex justify-center items-center absolute right-[48%]">
                 ACI
@@ -56,9 +63,9 @@ export default function Home() {
             {!mobile && (
               <LogoDesktop
                 style={{
-                  width: "75%",
+                  width: "65%",
                   maxWidth: "950px",
-                  maxHeight: "70vh",
+                  maxHeight: "55vh",
                 }}
               />
             )}
@@ -67,20 +74,26 @@ export default function Home() {
                 style={{
                   width: "85%",
                   maxWidth: "85%",
-                  maxHeight: "70vh",
+                  maxHeight: "60vh",
                 }}
               />
             )}
           </div>
-          <div className="text-blue p-1 text-xl md:text-2xl h-[10vh] min-h-[70px] md:absolute md:bottom-0 flex flex-col items-center items-center text-center font-bold">
-            Corso di Laurea Magistrale
+          <div className="text-blue p-1 text-lg md:text-2xl h-[10vh] min-h-[70px] md:absolute md:bottom-0 flex flex-col items-center items-center text-center font-bold">
+            Corso di Laurea Magistrale // Master Program
             <br />
             <div>
-              <span className="red" style={{ fontSize: "30px" }}>
+              <span
+                className="text-red"
+                style={{ fontSize: mobile ? "30px" : "38px" }}
+              >
                 A
               </span>
               rchitettura Ambiente Costruito Interni {"//"}{" "}
-              <span className="red" style={{ fontSize: "30px" }}>
+              <span
+                className="text-red"
+                style={{ fontSize: mobile ? "30px" : "38px" }}
+              >
                 A
               </span>
               rchitecture Built Environment Interiors

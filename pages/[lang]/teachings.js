@@ -99,7 +99,7 @@ export default function Course() {
             </div>
           </div>
           <div className="relative pl-4 md:pl-0 pr-4 md:pr-16 pt-16 overflow-y-scroll">
-            <div className="h-4 w-full bg-blue mb-8"></div>
+            <div className="h-4 w-full bg-red mb-8"></div>
             <div
               className="text-blue my-2 text-2xl "
               dangerouslySetInnerHTML={{

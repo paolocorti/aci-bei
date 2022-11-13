@@ -172,11 +172,7 @@ const HomeMenuMobile = ({ course, lang, setMenuopen }) => {
         </div>
       </div>
       <div className="relative">
-        <div className="border-0 flex-col z-10 flex py-4 w-fit text-lg font-bold text-gray my-2 ">
-          <Link href={`/${lang}/privacy`}>
-            <div className="cursor-pointer hover:underline">Privacy</div>
-          </Link>
-        </div>
+        <div className="border-0 flex-col z-10 flex py-4 w-fit text-lg font-bold text-gray my-2 "></div>
       </div>
     </div>
   );

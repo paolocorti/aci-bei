@@ -98,7 +98,7 @@ li a {
 
 li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #dc0c16; /* Change the color */
+  color: #a61e15; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.5em; /* Also needed for space (tweak if needed) */
@@ -109,7 +109,7 @@ li::before {
 }
 
 .red {
-  color: #dc0c16;
+  color: #a61e15;
 }
 
 .year {
@@ -128,14 +128,14 @@ li::before {
 .st0 {
   clip-path: url(#SVGID_00000141430025087669923370000016035090361928764075_);
   fill: none;
-  stroke: #314999;
+  stroke: #112c51;
   stroke-width: 10;
 }
 
 .st1 {
   clip-path: url(#SVGID_00000044888945872602385380000009051516739888875921_);
   fill: none;
-  stroke: #314999;
+  stroke: #112c51;
   stroke-width: 10;
   stroke-miterlimit: 4;
 }
@@ -145,12 +145,12 @@ li::before {
 
 .st10 {
   fill: transparent;
-  stroke: #314999;
+  stroke: #112c51;
   stroke-width: 10;
 }
 .st11 {
   fill: transparent;
-  stroke: #314999;
+  stroke: #112c51;
   stroke-width: 10;
   stroke-miterlimit: 4;
 }
@@ -158,5 +158,5 @@ li::before {
   enable-background: new;
 }
 .st13 {
-  fill: #314999;
+  fill: #112c51;
 }

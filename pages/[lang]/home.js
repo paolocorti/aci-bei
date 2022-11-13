@@ -37,11 +37,6 @@ export default function Home() {
                   {lang === "it" ? "ACI" : "BEI"}
                 </div>
               </Link>
-              <div className="absolute bottom-0 p-4 text-lg font-bold text-blue">
-                <Link href={`/${lang}/privacy`}>
-                  <div className="cursor-pointer hover:underline">Privacy</div>
-                </Link>
-              </div>
             </div>
           )}
           {mobile && (
@@ -78,9 +73,10 @@ export default function Home() {
                   lineHeight: 1.2,
                   fontSize: isMobile ? "20px" : "1.5vw",
                 }}
-              >
-                {getContent(content, `${course}_intro`)}
-              </p>
+                dangerouslySetInnerHTML={{
+                  __html: getContent(content, `${course}_intro`),
+                }}
+              ></p>
             </div>
           </div>
         </div>
