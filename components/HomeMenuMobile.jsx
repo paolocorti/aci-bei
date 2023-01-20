@@ -92,6 +92,11 @@ const HomeMenuMobile = ({ course, lang, setMenuopen }) => {
               {getContent(content, `${course}_menu_2_3`)}
             </div>
           </Link>
+          <Link passHref href={`/${lang}/teachings?active=4`}>
+            <div className="cursor-pointer hover:underline">
+              {getContent(content, `${course}_menu_2_4`)}
+            </div>
+          </Link>
         </div>
       </div>
       <div className="relative">

@@ -79,13 +79,22 @@ export default function Course() {
                     {getContent(content, `${course}_menu_2_2`)}
                   </div>
                 </a>
-                <Link passHref href={`/${lang}/course?active=3`}>
+                <Link passHref href={`/${lang}/teachings?active=3`}>
                   <div
                     className={`${
                       activeP === "3" ? "border-8" : "border-4"
                     } border-blue hover:bg-blue hover:text-gray py-2 px-4 w-fit text-xl font-bold text-blue my-2 cursor-pointer`}
                   >
                     {getContent(content, `${course}_menu_2_3`)}
+                  </div>
+                </Link>
+                <Link passHref href={`/${lang}/teachings?active=4`}>
+                  <div
+                    className={`${
+                      activeP === "4" ? "border-8" : "border-4"
+                    } border-blue hover:bg-blue hover:text-gray py-2 px-4 w-fit text-xl font-bold text-blue my-2 cursor-pointer`}
+                  >
+                    {getContent(content, `${course}_menu_2_4`)}
                   </div>
                 </Link>
               </div>

@@ -32,7 +32,7 @@ export default function Home() {
             >
               <div>
                 <img
-                  src={"logo.jpg"}
+                  src={"/logo.jpg"}
                   style={{ width: "200px", mixBlendMode: "multiply" }}
                   alt="Logo Politecnico Milano"
                   className="mb-4"
