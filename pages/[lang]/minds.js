@@ -39,6 +39,7 @@ export default function Minds() {
 
   const gallery1 = getContent(content, `minds_gallery_1`).split(",");
   const gallery2 = getContent(content, `minds_gallery_2`).split(",");
+  const gallery3 = getContent(content, `minds_gallery_3`).split(",");
 
   return (
     <div>
@@ -133,6 +134,21 @@ export default function Minds() {
                         <div key={`gallery-2-${v}`}>
                           <img
                             src={`/gallery/minds2022/${v}`}
+                            style={{ height: "400px", margin: "0 auto" }}
+                            alt={`Gallery image ${i} - MINDS`}
+                          />
+                        </div>
+                      );
+                    })}
+                  </Slider>
+                </div>
+                <div className="p-6">
+                  <Slider {...settings}>
+                    {gallery3.map((v, i) => {
+                      return (
+                        <div key={`gallery-3-${v}`}>
+                          <img
+                            src={`/gallery/minds2023/${v}`}
                             style={{ height: "400px", margin: "0 auto" }}
                             alt={`Gallery image ${i} - MINDS`}
                           />

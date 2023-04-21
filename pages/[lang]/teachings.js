@@ -6,6 +6,7 @@ import { useContent, getContent, getLink } from "../../utils";
 import { isMobile } from "react-device-detect";
 import HeaderMobile from "../../components/HeaderMobile";
 import HomeMenuMobile from "../../components/HomeMenuMobile";
+import Slider from "react-slick";
 
 export default function Course() {
   const router = useRouter();
@@ -28,7 +29,15 @@ export default function Course() {
     setMobile(isMobile);
   }, [isMobile]);
 
-  console.log(`${course}_teachings_content_${active}`);
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+  };
+
+  const gallery1 = getContent(content, `teachings_gallery_1`).split(",");
 
   return (
     <div>
@@ -118,6 +127,21 @@ export default function Course() {
                 ),
               }}
             ></div>
+            <div className="p-6">
+              <Slider {...settings}>
+                {gallery1.map((v, i) => {
+                  return (
+                    <div key={`gallery-1-${v}`}>
+                      <img
+                        src={`/gallery/mostre/${v}`}
+                        style={{ height: "400px", margin: "0 auto" }}
+                        alt={`Gallery Mostre ${i} `}
+                      />
+                    </div>
+                  );
+                })}
+              </Slider>
+            </div>
           </div>
         </div>
       </main>
