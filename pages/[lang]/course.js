@@ -95,7 +95,7 @@ export default function Course() {
                     {getContent(content, `${course}_menu_1_4`)}
                   </div>
                 </a>
-                <a
+                {/* <a
                   target="_blank"
                   rel="noreferrer"
                   href={getLink(content, `${course}_menu_1_5`)}
@@ -108,7 +108,7 @@ export default function Course() {
                   >
                     {getContent(content, `${course}_menu_1_5`)}
                   </div>
-                </a>
+                </a> */}
               </div>
               <div className="flex flex-col pb-8">
                 <Link passHref href={`/${lang}/home`}>
